@@ -17,9 +17,12 @@ import java.util.Scanner;
 public class SI_RegPagi22166019Latihan21Rataratanilai {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        
+        // Deklarasi variabel
         int jumlahMahasiswa;
         float totalNilai = 0, nilai, rataRata;
-
+        
+        // Memasukkan jumlah mahasiswa
         System.out.print("Masukkan jumlah mahasiswa: ");
         jumlahMahasiswa = input.nextInt();
 
